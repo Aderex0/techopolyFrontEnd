@@ -6,7 +6,7 @@
     display: grid;
     min-width: 1280px;
     min-height: 598px;
-    /* height: 100vh; */
+    height: 100vh;
     grid-template-rows: 2% 1fr 20%;
     background-color: coral;
 }
@@ -24,7 +24,7 @@
     grid-area: 25 / 65 / span 10 / span 20;
     background-color: rgb(92, 87, 155);
     font-size: 35px;
-    font-style: "helvetica";
+    font-family: Helvetica, sans-serif;
 }
 
 #player-one-card {
@@ -40,4 +40,8 @@
     grid-area: 36 / 173 / span 46 / span 26;
 
 
+#player2 {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
 }
