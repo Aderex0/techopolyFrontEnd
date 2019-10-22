@@ -38,10 +38,29 @@
 #player-two-card {
     background-color: white;
     grid-area: 36 / 173 / span 46 / span 26;
+}
 
+#player1 {
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+}
 
 #player2 {
     width: 30px;
     height: 30px;
     background-color: orange;
+}
+
+#dice {
+    grid-area: 40 / 60 / span 20 / span 30;
+    background-color: burlywood;
+}
+
+#dice:hover {
+    background-color: rgb(221, 169, 101);
+}
+
+#dice h2 {
+    font-family: Helvetica, sans-serif;
 }
