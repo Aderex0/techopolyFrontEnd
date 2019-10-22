@@ -29,12 +29,15 @@
 
 #player-one-card {
     background-color: white;
-    grid-column-start: 2;
-    grid-column-end: 13;
+    grid-column-start: 3;
+    grid-column-end: 29;
     grid-row-start: 2;
-    grid-row-end: 18;
+    grid-row-end: 48;
 }
 
 #player-two-card {
+    background-color: white;
+    grid-area: 36 / 173 / span 46 / span 26;
+
 
 }
