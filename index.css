@@ -6,7 +6,7 @@
     display: grid;
     min-width: 1280px;
     min-height: 598px;
-    /* height: 100vh; */
+    height: 100vh;
     grid-template-rows: 2% 1fr 20%;
     background-color: coral;
 }
@@ -24,7 +24,7 @@
     grid-area: 25 / 65 / span 10 / span 20;
     background-color: rgb(92, 87, 155);
     font-size: 35px;
-    font-style: "helvetica";
+    font-family: Helvetica, sans-serif;
 }
 
 #player-one-card {
@@ -35,6 +35,28 @@
     grid-row-end: 18;
 }
 
-#player-two-card {
+#dice {
+    grid-area: 40 / 60 / span 20 / span 30;
+    background-color: lightcoral;
+}
 
+#dice:hover {
+    background-color: rgb(235, 84, 84);;
+}
+
+#dice h2 {
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+#player1 {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
+
+#player2 {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
 }
