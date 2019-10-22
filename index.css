@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+#board-container {
+    display: grid;
+    min-width: 1280px;
+    min-height: 598px;
+    /* height: 100vh; */
+    grid-template-rows: 2% 1fr 20%;
+    background-color: coral;
+}
+
+#center-board {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    background-color: rgba(129, 190, 68, 0.8);
+
+    display: grid;
+}
+
+#start-btn {
+    grid-area: 25 / 65 / span 10 / span 20;
+    background-color: rgb(92, 87, 155);
+    font-size: 35px;
+    font-style: "helvetica";
+}
+
+#player-one-card {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 18;
+}
+
+#player-two-card {
+
+}
