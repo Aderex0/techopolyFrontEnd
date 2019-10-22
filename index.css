@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-
+/* BOARD CSS */
 #board-container {
     display: grid;
     min-width: 1280px;
@@ -12,8 +12,6 @@
 }
 
 #center-board {
-    grid-column-start: 1;
-    grid-column-end: 4;
     grid-row-start: 2;
     background-color: rgba(129, 190, 68, 0.8);
 
@@ -46,21 +44,47 @@
     background-color: aquamarine;
 }
 
+#dice {
+    grid-area: 40 / 60 / span 20 / span 30;
+}
+
 #player2 {
     width: 30px;
     height: 30px;
     background-color: orange;
 }
 
-#dice {
+#enable-dice {
     grid-area: 40 / 60 / span 20 / span 30;
     background-color: burlywood;
 }
 
-#dice:hover {
+#enable-dice:hover {
     background-color: rgb(221, 169, 101);
 }
 
 #dice-number{
     font-family: Helvetica, sans-serif;
+    background-color: peru;
+}
+
+/* INTERACTION BOARD CSS */
+
+
+#interactions-container {
+    grid-row-start: 3 ;
+    display: block;
+    background-color: slategrey;
+    width: 80%;
+    justify-self: center;
+}
+
+.int-buttons {
+    width: 10%;
+    height: 20%;
+    display: block;
+    background-color: rgb(22, 172, 72);
+    border-radius: 5px;
+
+    margin: 0.5%;
 }
