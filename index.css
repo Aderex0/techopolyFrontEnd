@@ -38,7 +38,7 @@
     grid-area: 36 / 173 / span 46 / span 26;
 }
 
-#player1 {
+#player2 {
     width: 30px;
     height: 30px;
     background-color: aquamarine;
@@ -50,7 +50,7 @@
     grid-area: 40 / 60 / span 20 / span 30;
 }
 
-#player2 {
+#player3 {
     width: 30px;
     height: 30px;
     background-color: orange;
