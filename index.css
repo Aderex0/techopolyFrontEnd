@@ -44,6 +44,8 @@
     background-color: aquamarine;
     z-index: 2;
     position: relative;
+    display: inline-block;
+    margin: 0;
 }
 
 #dice {
@@ -56,6 +58,8 @@
     background-color: orange;
     z-index: 2;
     position: relative;
+    display: inline-block;
+    margin: 0;
 }
 
 #enable-dice {
