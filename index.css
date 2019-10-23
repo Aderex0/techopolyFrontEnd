@@ -94,4 +94,18 @@
     margin: 0.5%;
 }
 
+h2 {
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+p {
+    font-family: monospace;
+    font-size: 9pt;
+}
+
+
+
+
 
