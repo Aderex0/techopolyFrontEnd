@@ -42,6 +42,8 @@
     width: 30px;
     height: 30px;
     background-color: aquamarine;
+    z-index: 2;
+    position: relative;
 }
 
 #dice {
@@ -52,6 +54,8 @@
     width: 30px;
     height: 30px;
     background-color: orange;
+    z-index: 2;
+    position: relative;
 }
 
 #enable-dice {
@@ -62,6 +66,7 @@
 #enable-dice:hover {
     background-color: rgb(221, 169, 101);
 }
+
 
 #dice-number{
     font-family: Helvetica, sans-serif;
@@ -82,9 +87,11 @@
 .int-buttons {
     width: 10%;
     height: 20%;
-    display: block;
+    display: inline-block;
     background-color: rgb(22, 172, 72);
     border-radius: 5px;
 
     margin: 0.5%;
 }
+
+
