@@ -133,6 +133,18 @@ p {
     pointer-events: none;
 }
 
+.player2 {
+    background-color: mediumturquoise;
+}
+
+.player3 {
+    background-color: salmon;
+}
+
+.player1 {
+    background-color: #222629;
+}
+
 
 
 
