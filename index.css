@@ -15,7 +15,7 @@
     min-height: 598px;
     height: 100vh;
     grid-template-rows: 2% 1fr 20%;
-    /* background-image: url(https://live.staticflickr.com/7806/46484202291_7583a6a88a_b.jpg); */
+    background-image: url(https://live.staticflickr.com/7806/46484202291_7583a6a88a_b.jpg);
 }
 
 #center-board {
@@ -96,7 +96,6 @@
 
 #interactions-container {
     grid-row-start: 3 ;
-    display: block;
     background-color: #222629;
     width: 80%;
     justify-self: center;
@@ -104,16 +103,20 @@
     border-right: 5px #86C232 solid;
     border-left: 5px #86C232 solid;
     border-radius: 20px 20px 0px 0px;
+    display: flex;
+}
+
+#button-container {
+    width: 40%;
 }
 
 .int-buttons {
-    width: 10%;
-    height: 20%;
-    display: inline-block;
+    width: 40%;
+    height: 15%;
     background-color: rgb(22, 172, 72);
     border-radius: 5px;
-
-    margin: 0.5%;
+    display: inline-block;
+    margin: 2% 0% 0% 5%;
 }
 
 h2 {
@@ -143,6 +146,12 @@ p {
 
 .player1 {
     background-color: #222629;
+}
+
+#text-field {
+    float: right;
+    width: 70%;
+    background-color: salmon;
 }
 
 
