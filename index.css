@@ -15,7 +15,7 @@
     min-height: 598px;
     height: 100vh;
     grid-template-rows: 2% 1fr 20%;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/000/151/596/non_2x/vector-light-abstract-technology-background.png);
+    /* background-image: url(https://live.staticflickr.com/7806/46484202291_7583a6a88a_b.jpg); */
 }
 
 #center-board {
@@ -120,11 +120,17 @@ h2 {
     position: relative;
     font-family: Helvetica, sans-serif;
     font-size: 12pt;
+    color: white;
 }
 
 p {
     font-family: monospace;
     font-size: 9pt;
+    color: white;
+}
+
+.noHover{
+    pointer-events: none;
 }
 
 
